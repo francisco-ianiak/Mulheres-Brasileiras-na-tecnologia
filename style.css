@@ -1,0 +1,140 @@
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ff007f;
+    font-size: 25px;
+
+}
+
+header{
+    background-color: #ff007f;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    
+
+}
+
+
+
+main{
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2{
+    color: #000000;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+figure{
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    
+}
+
+form input, form textarea{
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+form button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+header nav li a{
+    color: white;
+    text-decoration: none;
+
+
+}
+
+header nav li {
+    margin: 0 20px;
+
+}
+
+header nav li:hover{
+    color: yellow;
+    transition: 500ms;
+
+}
+nav{
+    font-size: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+
+
+
+
+
+
